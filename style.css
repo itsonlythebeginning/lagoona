@@ -1932,7 +1932,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media screen and (max-width: 340px) {
-
+    
+    .header_nav_two {
+    padding-left: 40px;
+    }
+    
+    
     .header_link{
         font-size: 18px;
         text-align: end;
