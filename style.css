@@ -1174,7 +1174,7 @@ input[type=number]::-webkit-outer-spin-button {
     .header_nav_two_links{
         display: flex;
         flex-direction: column;
-        margin-top: -136px;
+        margin-top: -76px;
     }
 
     .header_link_two{
@@ -1700,7 +1700,7 @@ input[type=number]::-webkit-outer-spin-button {
     .header_nav_two_links {
         display: flex;
         flex-direction: column;
-         margin-top: -185px;
+        margin-top: -76px;
     }
     .back_call{
         margin-top: -8px;
