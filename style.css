@@ -1808,7 +1808,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media screen and (max-width: 480px) {
-
+    .header_nav_two {
+            padding-left: 60px;
+        }
+    
+    
     .header_link{
         font-size: 18px;
         text-align: end;
@@ -1867,7 +1871,7 @@ input[type=number]::-webkit-outer-spin-button {
 @media screen and (max-width: 380px) {
 
     .header_nav_two {
-        padding-left: 60px;
+        padding-left: 55px;
     }
     
     .header_link{
