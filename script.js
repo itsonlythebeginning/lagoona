@@ -53,7 +53,7 @@ let header_nav_two = document.querySelector(".header_nav_two")
 let header_nav_close = document.querySelector(".header_nav_close")
 
 header_burger.addEventListener("click", function () {
-    console.log(2)
+
     header_nav_two.classList.add("header_list_active")
 
 })
@@ -62,3 +62,30 @@ header_nav_close.addEventListener("click", function () {
     console.log(1)
     header_nav_two.classList.remove("header_list_active")
 })
+
+let header_linkkk = document.querySelectorAll(".header_linkkk")
+
+let want_t = document.querySelector(".want_t")
+
+want_t.addEventListener("click", function () {
+    header_nav_two.classList.remove("header_list_active")
+})
+
+
+
+if (window.innerWidth < 768) {
+
+    for (let i = 0; i <  header_linkkk.length; i++)
+
+    {
+        header_linkkk[i].addEventListener("click", function () {
+            header_nav_two.classList.remove("header_list_active")
+
+        })
+    }
+
+
+
+}
+
+
