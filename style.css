@@ -1809,7 +1809,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 @media screen and (max-width: 480px) {
     .header_nav_two {
-            padding-left: 60px;
+            padding-left: 55px;
         }
     
     
@@ -1871,7 +1871,7 @@ input[type=number]::-webkit-outer-spin-button {
 @media screen and (max-width: 380px) {
 
     .header_nav_two {
-        padding-left: 55px;
+        padding-left: 50px;
     }
     
     .header_link{
@@ -1934,7 +1934,7 @@ input[type=number]::-webkit-outer-spin-button {
 @media screen and (max-width: 340px) {
     
     .header_nav_two {
-    padding-left: 40px;
+    padding-left: 35px;
     }
     
     
