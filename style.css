@@ -1109,7 +1109,7 @@ input[type=number]::-webkit-outer-spin-button {
         transform: translateX(100%);
         transition: .2s all linear;
         align-items: flex-start;
-
+        border-radius: 0px;
     }
 
 
@@ -1174,7 +1174,7 @@ input[type=number]::-webkit-outer-spin-button {
     .header_nav_two_links{
         display: flex;
         flex-direction: column;
-        margin-top: 22px;
+        margin-top: -136px;
     }
 
     .header_link_two{
@@ -1700,7 +1700,7 @@ input[type=number]::-webkit-outer-spin-button {
     .header_nav_two_links {
         display: flex;
         flex-direction: column;
-         margin-top: -75px;
+         margin-top: -185px;
     }
     .back_call{
         margin-top: -8px;
@@ -1842,7 +1842,7 @@ input[type=number]::-webkit-outer-spin-button {
     .header_link{
         font-size: 19px;
         text-align: end;
-        background: url(keyboard_tab.png) no-repeat 20px center;
+        background: url(keyboard_tab.png) no-repeat 7px center;
     }
     .accommodation_txt_link{
         position: absolute;
@@ -1889,6 +1889,37 @@ input[type=number]::-webkit-outer-spin-button {
         padding-right: 24px;
         background: url("white_arrow.png") no-repeat 98% center;
     }
+
+    .contacts_box {
+        padding: 35px;
+    }
+    .addresses {
+        width: 307px;
+    }
+
+    .accommodation_txt_link {
+        position: absolute;
+        left: 28px;
+        top: 268px;
+    }
+    .header_link {
+        background: url(keyboard_tab.png) no-repeat 1px center;
+    }
+
+    .special_box_annotations {
+        margin-bottom: 23px;
+    }
+
+    .special_box_big {
+        padding-left: 35px;
+        padding-top: 180px;
+
+    }
+
+
+
+
+
 
 }
 
