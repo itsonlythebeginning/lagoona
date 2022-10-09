@@ -86,22 +86,20 @@ img {
     line-height: 20px;
     color: #666666;
     padding: 5px;
+    transition: all 0.25s ease;
 }
 
 .header_phone:focus {
     color: #CC9933;
-    transition: all 0.15s ease-in-out;
     border: 1px dashed #999999;
 }
 
 .header_phone:active {
     color: #A47312;
-    transition: all 0.15s ease-in-out;
 }
 
 .header_phone:hover {
     color: #CC9933;
-    transition: all 0.15s ease-in-out;
 }
 
 
@@ -118,6 +116,7 @@ img {
     padding-top: 5px;
     padding-bottom: 5px;
     background: url("keyboard_tab.png") no-repeat left center;
+    transition: all 0.25s ease;
 }
 
 .header_link:focus{
@@ -127,19 +126,16 @@ img {
     padding-top: 5px;
     padding-bottom: 5px;
     border: 1px solid #CC9933;
-    transition: all 0.15s ease-in-out;
-}
+   }
 
 .header_link:hover{
     color: #F0BF5F;
     background: url("keyboard_tab_hover.png") no-repeat left center;
-    transition: all 0.15s ease-in-out;
 }
 
 .header_link:active{
     color: #A47312;
     background: url("keyboard_tab_active.png") no-repeat left center;
-    transition: all 0.15s ease-in-out;
 }
 
 .header_nav_two{
@@ -196,23 +192,23 @@ img {
     padding: 13px 20px;
     border: 1px solid #CC9933;
     border-radius: 10px;
+    transition: all 0.3s ease;
 }
 .header_link_two:first-child{
     margin-right: 40px;
 }
 
 .header_link_two:focus{
-    transition: all 0.15s ease-in-out;
+
     background: #CC9933;
     color: #FFFFFF;
 }
 .header_link_two:active{
-    transition: all 0.15s ease-in-out;
     background: #A47312;
     color: #FFFFFF;
 }
 .header_link_two:hover{
-    transition: all 0.15s ease-in-out;
+
     background: #CC9933;
     color: #FFFFFF;
 }
@@ -299,21 +295,23 @@ img {
     color: #F0BF5F;
     padding-right: 24px;
     background: url("arrow.png") no-repeat 95% center;
+    transition: all 0.3s ease;
 }
 
 .special_box_link:hover{
     background: url("arrow.png") no-repeat right center;
-    transition: all 0.15s ease-in-out;
 }
 
 .special_box_link:active{
     color: white;
-    transition: all 0.15s ease-in-out;
 }
 
 .special_box_pic:hover .special_pic{
     scale: 1.05;
-    transition: all 0.2s ease-in-out;
+
+}
+.special_pic{
+    transition: all 0.3s ease;
 }
 
 .special_box_pic{
@@ -413,11 +411,12 @@ img {
     border-radius: 15px 15px 0px 0px;
     height: 165px;
     object-fit: cover;
+    transition: all 0.4s ease;
 }
 
 .services_pic:hover{
     scale: 1.05;
-    transition: all 0.2s ease-in-out;
+
 }
 
 .services_box_annotation{
@@ -436,17 +435,17 @@ img {
     color: #CC9933;
     padding-right: 22px;
     background: url("arrow_two.png") no-repeat 98% center;
-
+    transition: all 0.3s ease;
 }
 
 .services_box_link:hover{
     color: #F0BF5F;
     background: url("arrow_3.png") no-repeat right center;
-    transition: all 0.2s ease-in-out;
+
 }
 .services_box_link:active{
     color: #A47312;
-       transition: all 0.2s ease-in-out;
+
 }
 
 .services_box_txt{
@@ -584,16 +583,17 @@ img {
     position: absolute;
     left: 50px;
     bottom: 27px;
+    transition: all 0.4s ease;
 }
 
 .accommodation_txt_link_link:hover{
     background: url("white_arrow.png") no-repeat right center;
-    transition: all 0.15s ease-in-out;
+
 }
 
 .accommodation_txt_link_link:focus{
     background: url("white_arrow.png") no-repeat right center;
-    transition: all 0.15s ease-in-out;
+
 }
 
 
@@ -608,6 +608,7 @@ img {
 .accommodation_pic{
     height: 100%;
     object-fit: cover;
+    transition: all 0.4s ease;
 }
 
 .big_pic{
@@ -620,7 +621,7 @@ img {
 
 .accommodation_box .accommodation_pic:hover{
     scale: 1.05;
-    transition: all 0.2s ease-in-out;
+
 }
 
 .want_tour{
@@ -1808,11 +1809,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media screen and (max-width: 480px) {
-    .header_nav_two {
-            padding-left: 55px;
-        }
-    
-    
+
     .header_link{
         font-size: 18px;
         text-align: end;
@@ -1871,9 +1868,9 @@ input[type=number]::-webkit-outer-spin-button {
 @media screen and (max-width: 380px) {
 
     .header_nav_two {
-        padding-left: 50px;
+        padding-left: 55px;
     }
-    
+
     .header_link{
         font-size: 18px;
         text-align: end;
@@ -1932,12 +1929,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media screen and (max-width: 340px) {
-    
+
     .header_nav_two {
-    padding-left: 35px;
+        padding-left: 35px;
     }
-    
-    
+
+
     .header_link{
         font-size: 18px;
         text-align: end;
